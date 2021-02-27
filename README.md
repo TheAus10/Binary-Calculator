@@ -8,12 +8,13 @@ The program can be compiled with the makefile and command `make`. This will gene
 
 ### To Use
 A menu will be displayed with five options:
-  `(1) POWER OF 2
+  ```
+  (1) POWER OF 2
   (2) REVERSE BITS
   (3) REPLACE BIT POSITION FROM MASK
   (4) PALINDROME
-  (5) EXIT`
-
+  (5) EXIT
+  ```
 After selecting an option, the user will be prompt to input an integer less than 2 billion. This is the nmber that each menu option will perform its bitwise operation
 ##### Power of 2 
 Checks through all bits of the number to see if it is a power of 2. If it isn't, it will find the next highest power of 2 and report it back to the user.
